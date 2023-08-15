@@ -1,5 +1,35 @@
 # Change Log
 
+## 1.13.0
+
+### Minor Changes
+
+- Convert pauseUpstream and resumeUpstream to regular class methods - [#830](https://github.com/livekit/client-sdk-js/pull/830) ([@lukasIO](https://github.com/lukasIO))
+
+### Patch Changes
+
+- Add websocketTimeout to RoomConnectOptions - [#834](https://github.com/livekit/client-sdk-js/pull/834) ([@lukasIO](https://github.com/lukasIO))
+
+- Add support for get/setVolume in react-native - [#833](https://github.com/livekit/client-sdk-js/pull/833) ([@davidliu](https://github.com/davidliu))
+
+- Refine pause/resumeUpstream, setProcessor for multi-codecs - [#829](https://github.com/livekit/client-sdk-js/pull/829) ([@cnderrauber](https://github.com/cnderrauber))
+
+- Fix video device switch not working for backup codec - [#824](https://github.com/livekit/client-sdk-js/pull/824) ([@cnderrauber](https://github.com/cnderrauber))
+
+- Update dependency webrtc-adapter to v8.2.3 - [#819](https://github.com/livekit/client-sdk-js/pull/819) ([@renovate](https://github.com/apps/renovate))
+
+- Add support for audio processors - [#822](https://github.com/livekit/client-sdk-js/pull/822) ([@lukasIO](https://github.com/lukasIO))
+
+- Ability to simulate subscriber-bandwidth - [#835](https://github.com/livekit/client-sdk-js/pull/835) ([@davidzhao](https://github.com/davidzhao))
+
+- Fix getDevices permissions when no kind is supplied - [#811](https://github.com/livekit/client-sdk-js/pull/811) ([@Talljoe](https://github.com/Talljoe))
+
+- Fix setTrackMute ignored simulcast-codec - [#827](https://github.com/livekit/client-sdk-js/pull/827) ([@cnderrauber](https://github.com/cnderrauber))
+
+- Add support for server injected frame trailer being passed down - [#812](https://github.com/livekit/client-sdk-js/pull/812) ([@lukasIO](https://github.com/lukasIO))
+
+- Setup signal callbacks before connecting signal - [#832](https://github.com/livekit/client-sdk-js/pull/832) ([@lukasIO](https://github.com/lukasIO))
+
 ## 1.12.3
 
 ### Patch Changes
